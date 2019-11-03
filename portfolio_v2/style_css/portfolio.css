@@ -1,0 +1,57 @@
+       .portfolio
+       {
+           margin-top:50px;
+       }
+       .main_portfolio
+       {
+           height: 300px;
+           width: 800px;
+           display: flex;
+           flex-wrap: wrap; 
+       }
+
+       .phot1
+       {
+           height: 120px;
+           width: 60%;
+           object-fit: cover;
+       }
+       .phot2
+       {
+           height: 120px;
+           width: 40%;
+           object-fit: cover;
+       }
+       .phot3 
+       {
+           height: 180px;
+            width: 100%;
+            object-fit: cover;
+       }
+       .phot > img
+       {
+           object-fit: cover;
+        width: 100%;
+        height: 100%;
+        margin: 0px auto;
+       }
+       .phot > img:hover
+       {
+           transform: scale(1.05);
+       }
+       .phot > .header
+       {
+           font-size: 25px;
+           color:rgba(0, 0, 0, 0.589) ;
+           bottom: 40px;
+           display: flex;
+           text-align: center;
+           justify-content: center;
+           position: relative;
+           text-align: center;
+       }
+
+       .phot p
+       {
+           margin: 0% auto;
+       }

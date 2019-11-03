@@ -1,0 +1,57 @@
+ /*ustawienie divów*/
+        .main_me
+        {
+            display: flex;
+            justify-content:space-between;
+            width: 1024px;
+        }
+        /*ustawienie zdjęcia*/
+        .photo
+        {
+            margin: 15px 30px 15px 60px;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        }
+        /*nadanie wartości img*/
+        .photo img
+        {
+            width: 80px;
+            height: 100px;
+        }
+        /*ustawienie tablicy*/
+        .information
+        {
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /*usuniecie kropek z tablicy*/
+        .information ul
+        {
+            letter-spacing: 1px;
+            list-style-type: none;
+        }
+        /*linia pomiędzy divami*/
+        .border
+        {
+            border: 1px dashed #FFC53D;
+            height: 150px; 
+            margin: 10px 30px 10px 30px;
+        }
+        /*Ustawienie i wyjustowanie tekstu*/
+        .text
+        {
+            display: flex;
+            text-align: justify;
+            align-items: center;
+            justify-content: center;
+            margin-right: 60px;
+            margin-left: 60px;
+            text-align-last: center;
+        }
+        .text p
+        {
+            letter-spacing: 1px;
+        }

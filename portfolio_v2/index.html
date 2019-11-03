@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head lang="pl">
+            <meta charset="utf-8">
+            <title>Portfolio</title>
+            <meta name="description" content="Moje portfolio w którym póki co nic nie znajdziesz">
+            <meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
+            <meta name="author" content="Bartosz Kania">
+            <link rel="stylesheet" type="text/css" href="style_css\navbar.css">
+            <link rel="stylesheet" type="text/css" href="style_css\welcome.css">
+            <link rel="stylesheet" type="text/css" href="style_css\main_me.css">         
+            <link rel="stylesheet" text="text/css" href="style_css\main_skills.css">
+            <link rel="stylesheet" text="text/css" href="style_css\portfolio.css">
+            <link rel="stylesheet" text="text/css" href="style_css\contact.css">
+            <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&amp;display=swap" rel="stylesheet">
+    </head>
+
+    <style>
+        html
+        {
+            scroll-behavior: smooth;
+        }
+        body
+        {
+            color: aliceblue;
+            font-family: 'Josefin Sans', sans-serif;
+            margin: 0px auto;
+            background-image: url(https://cdn.pixabay.com/photo/2016/10/22/01/54/wood-1759566_960_720.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            position: relative;
+        }
+     
+        /*szerokosc na 100% na sekcjach*/
+        .szer
+        {
+            width: 100%;
+        }
+        /*flex*/
+        .flex
+        {
+            display: flex;
+            justify-content: center;
+        }
+  
+        .shadow
+       {
+           box-shadow: 0px 6px 20px rgba(5, 5, 5, 0.05);
+           padding: 5px;
+           margin-top: 40px;
+       }
+
+
+        .main_footer
+        {
+            margin-top: 30px;
+            height: 50px;
+            width: 1024px;
+            font-size: 8px;
+            text-align: end;
+        }
+        #welcome
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-image: url(https://cdn.pixabay.com/photo/2016/10/22/01/54/wood-1759566_960_720.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100vh;
+        }
+
+    </style>
+
+    <body>
+        <div class="main">
+            
+            <section class="flex szer navbar">
+               <div class="navbar_row">
+                    <a href="#info">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                    <a href="cv.html" target="_blank">CV</a>
+                </div>
+            </section>       
+
+            <section class="szer welcome flex">
+                
+                    <header id="welcome" class="main_header">
+                        <div>
+                            <h2 class="header">Welcome</h2>
+                            <h3 class="header">My name is Bartek<h3>
+                        </div>
+                    </header>
+            </section>
+                
+            
+            <section class="szer me flex">
+                <div class="main_me shadow">
+                    <div class="photo"><img src="IMG\ja.jpg"> </div>
+                    
+                    <div id="info" class="information"> 
+                        <ul>
+                            <li>Full Name: Bartosz Kania</li>
+                            <li>Age: 21 Years Old</li>
+                            <li>Telephone: 784 322 222</li>
+                            <li>E-mail: bartekkania98@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="border"> </div>
+                    <div class=text>
+                        <p> 
+                            Jestem studentem III roku telekomunikacji na Politechnice Wrocławskiej. 
+                            Intereseuję się sieciami komputerowymi oraz programowaniem i
+                            chciałbym rozwijać się w tym kierunku.
+                        </p>
+                    </div>   
+                </div>
+            </section>     
+
+            <section class="szer flex skills">
+                <div id="skills" class="main_skills shadow"> 
+                    <div class="skill photo1"><img src="IMG\c++_logo.jpg"><p>C++</p> </div>
+                    <div class="border"> </div>
+                    <div><p>My skills</p></div>
+                    <div class="border"> </div>
+                    <div class="skill photo1"><img src="IMG\cisco.jpg"><p>Networks</p><img> </div>
+                </div>
+            </section>
+            
+            <section id="portfolio" class="szer flex portfolio">
+                <div class="main_portfolio shadow">
+                    <div class="phot phot1"><img src="IMG\html.jpg"><p class="header">HTML</p></div>
+                    <div class="phot phot2"><img src="IMG\LTE.jpg"><p class="header">BTS</p> </div>
+                    <div class="phot phot3"><img src="IMG\switch.jpg"><p class="header strange_header">Cisco</p> </div>
+                    <div class="phot photo4"><img src=""> </div>
+                    <div class="phot photo5"><img src=""> </div>                    
+                </div>
+            </section>
+            
+            <section id="contact" class="contact szer flex">
+                <div class="contact_main">
+                    <div class="left_contact">
+                        <div class="top_left_contact">
+                            <p>Please desrible your question. Send me a message and I will answer you as soon as possible!</p>
+                        </div>
+                        <div class="bottom_left_contact">
+                            <ul>
+                                <li>Designer</li>  
+                                <li>Poland, Wrocław</li>
+                                <li>ul. Wymyślona 15/4 50-000</li>
+                                <li>bartekkania98@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right_contact">
+                        <ul>
+                            <li><h6>Name </h6></li>    
+                            <li><input type="text" placeholder="Your name..."></li>
+                            <li><h6>E-mail </h6></li>    
+                            <li><input type="text" placeholder="Address e-mail..."></li>
+                            <li><h6>Topic </h6></li>
+                            <li><input type="text" placeholder="Topic..."></li>
+                            <li><h6>Message </h6></li>    
+                            <li><textarea  name="subject" placeholder="Write something.." style="height:100px; width:300px;"></textarea></li>
+                        </br>
+                            <li><input type="submit" value="Submit"></li>
+                        </li>
+                    </div>
+                </div>
+            </section>
+            <section class="footer szer flex">
+                <div class="main_footer">
+                   <p>Wszelkie prawa zastrzeżone</p>
+                   <p>Created by me</p>
+                   
+                </div>
+            </section>
+        </div>
+    </body>
+  
+
+
+</html>

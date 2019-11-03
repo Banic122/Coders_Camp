@@ -1,0 +1,29 @@
+/*parametry diva nawigującego*/
+        .navbar
+        {
+            background-color: #333;
+        }
+        .navbar_row
+        {
+            overflow: hidden;
+
+            position: fixed;
+            width: 1024px;
+            height: 40px;
+        }
+        /* parametry przyciskow */
+        .navbar_row  a
+        {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+        }
+        /* po najechaniu zmienia kolor */
+        .navbar_row > a:hover
+        {
+            color: khaki;
+        }
+        

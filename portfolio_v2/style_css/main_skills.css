@@ -1,0 +1,27 @@
+  /*nadanie szerokosci sekcji main skills i ustawienie blokow*/
+       .main_skills
+       {
+           width: 624px;
+           display: flex;
+           justify-content: space-between;
+           height: 160px;
+           padding: 20px;
+           
+       }
+       /*dzieci marin_skill o tagu img wys i szer*/
+       .main_skills >.photo1 img
+       {
+           
+           height: 120px;
+           width: 150px;
+       }
+       /*dzieci main skills o tagu p i nadanie im pozycji relative*/
+       .main_skills >.skill p
+       {
+            position: relative;
+       }
+       .skill p
+       {
+           text-align: center;
+       }
+       /*nadanie cieni wybranej sekcji*/

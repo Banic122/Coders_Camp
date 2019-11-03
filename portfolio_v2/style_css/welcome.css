@@ -1,0 +1,26 @@
+ /*w przyszłości chyba nic*/
+
+ /*nagłówki i zdjęcie */
+ .main_header
+ {
+     width: 1024px;
+     background-color: blueviolet;
+ }
+ /*nagłówki*/
+ .header
+ {
+    
+    text-align: center;
+    margin: 1px 10px 1px 10px;
+    padding: 3px;
+    letter-spacing: 2px;
+ }
+ #welcome > div
+ {
+     font-size: 100px;
+   
+ }
+ #welcome > div
+ {
+     font-size: 80px;
+ }
