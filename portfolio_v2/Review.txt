@@ -1,0 +1,14 @@
+Nadużywasz marignow do pozycjonowania elementow. Do tworzenia struktury wykorzystujemy flexa/grida. Strona jest bardzo biedna w treść więc brak jakiegokolwiek rwd jest na duzy minus. Brak <main>, nie za bardzo rozumiem zamysłu zamknięcia całej strony w divie. Brak transitionow. Puste img. Gdy zdjęcia bardzo dużo ważą warto wykorzystac jakies narzedzie do kompresji zdjec np https://squoosh.app/ (to lepsze :))) ) albo https://imagecompressor.com/pl/ 
+Brak h1.
+Fajnie jak na poczatu kazdej sekcji jest naglowek
+
+Na plus: nav jest fixed,
+pliki css sa w roznych folderach mimo, ze nie jest to jakos bardzo potrzebne (na pewno ulatwilo mi sprawdzanie) polecam poczytac o sass/scss nic skomplikowanego, a duzo ulatwia,
+zdjecia w osobnym folderze,
+
+
+Code quality - 7/10
+Design quality - 3/10
+Business quality - 8/10
+Features quality - 5/10
+Ocena 23/40

@@ -33,7 +33,8 @@
             letter-spacing: 1px;
             list-style-type: none;
         }
-        /*linia pomiędzy divami*/
+        /*linia pomiędzy divami*/\
+        /* niepotrzebne to jest, lepiej takie cos zrobic border-right/left na elemencie np. ul wyzej */
         .border
         {
             border: 1px dashed #FFC53D;
